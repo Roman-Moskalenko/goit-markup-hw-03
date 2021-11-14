@@ -46,7 +46,6 @@ ul {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
 }
 .container {
   width: 1200px;
@@ -407,6 +406,10 @@ img {
   margin-bottom: 30px;
 }
 .portfolio-head {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.portfolio-text {
   padding-left: 24px;
   padding-right: 24px;
 }
