@@ -19,7 +19,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-container secondary-section">
+      <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-link-logo link" href="/">
             <span class="logo-header">Web</span>Studio
@@ -37,22 +37,21 @@
             </li>
           </ul>
         </nav>
-        <div class="header-connect">
-          <ul class="header-contacts list">
-            <li class="header-contacts-connect">
-              <a
-                class="header-contacts-mail link"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="header-contacts-connect">
-              <a class="header-contacts-tell link" href="tell:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </div>
+
+        <ul class="header-contacts list">
+          <li class="header-contacts-connect">
+            <a
+              class="header-contacts-mail link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="header-contacts-connect">
+            <a class="header-contacts-tell link" href="tell:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -63,7 +62,7 @@
       </section>
       <!-- Приимущества -->
       <section class="assets">
-        <div class="container main-section secondary-section">
+        <div class="container main-section">
           <h2 class="visually-hidden">Наши приимущества</h2>
           <ul class="assets-list list">
             <li class="assets-items">
@@ -99,7 +98,7 @@
       </section>
       <!-- Чем мы занимаемся -->
       <section class="doing">
-        <div class="container main-section secondary-section">
+        <div class="container main-section">
           <h2 class="doing-head">Чем мы занимаемся</h2>
           <ul class="doing-list list">
             <li class="doing-items">
@@ -107,7 +106,6 @@
                 src="images/img1.jpg"
                 alt="руки на клавиатуре и экран планшета с кодом"
                 width="370px"
-                height="294"
               />
             </li>
             <li class="doing-items">
@@ -129,7 +127,7 @@
       </section>
       <!-- Наша команда -->
       <section class="team">
-        <div class="container main-section secondary-section">
+        <div class="container main-section">
           <h2 class="team-main-head">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-items">
@@ -138,8 +136,10 @@
                 alt="улыбающийся мужчина в рубашке с бородой и в очках"
                 width="270"
               />
-              <h3 class="team-second-head">Игорь Демьяненко</h3>
-              <p class="team-text" lang="en">Product Designer</p>
+              <div class="team-heading">
+                <h3 class="team-second-head">Игорь Демьяненко</h3>
+                <p class="team-text" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="team-items">
               <img
@@ -147,8 +147,10 @@
                 alt="улыбающаяся девушка с белыми волосами в очках"
                 width="270"
               />
-              <h3 class="team-second-head">Ольга Репина</h3>
-              <p class="team-text" lang="en">Frontend Developer</p>
+              <div class="team-heading">
+                <h3 class="team-second-head">Ольга Репина</h3>
+                <p class="team-text" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-items">
               <img
@@ -156,8 +158,10 @@
                 alt="улыбающийся мужчина в рубашке смотрит в сторону"
                 width="270"
               />
-              <h3 class="team-second-head">Николай Тарасов</h3>
-              <p class="team-text" lang="en">Marketing</p>
+              <div class="team-heading">
+                <h3 class="team-second-head">Николай Тарасов</h3>
+                <p class="team-text" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="team-items">
               <img
@@ -165,15 +169,17 @@
                 alt="брюнет в футболке и очках с ухмылкой"
                 width="270"
               />
-              <h3 class="team-second-head">Михаил Ермаков</h3>
-              <p class="team-text" lang="en">UI Designer</p>
+              <div class="team-heading">
+                <h3 class="team-second-head">Михаил Ермаков</h3>
+                <p class="team-text" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container secondary-section">
+      <div class="container">
         <a class="footer-link link" href="/">
           <span class="logo-footer">Web</span>Studio</a
         >
